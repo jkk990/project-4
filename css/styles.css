@@ -2,12 +2,30 @@
   text-align: center;
   background-color: blue;
   background-size: contain;
+  overflow: hidden;
 }
 
 .player1  {
   text-align: center;
+  background-color: red;
+  height: 600px;
+  width: 450px;
 }
 
 .player2  {
   text-align: center;
+  height: 600px;
+  width: 450px;
+  background-color: yellow;
+}
+
+.results  {
+  text-align: center;
+  background-image: url("../dice-picture.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.container  {
+  margin: 0px;
 }
